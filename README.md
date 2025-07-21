@@ -49,9 +49,6 @@ bangalore-house-price-prediction/
 ├── requirements.txt # List of Python dependencies
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -99,35 +96,23 @@ An interactive web interface built with Flask that takes user input such as loca
    cd bangalore-house-price-prediction
 Install dependencies:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Start the Flask application:
+```bash
 
-bash
-Copy
-Edit
-cd app
-python app.py
-Open your browser and go to:
+   pip install -r requirements.txt
+   Start the Flask application:
 
-cpp
-Copy
-Edit
-http://127.0.0.1:5000
+```bash
 
-css
-Copy
-Edit
-📷 Web Form Interface
-📷 Output Price Prediction
-🚀 Future Work
+   cd app
+   python app.py
+   Open your browser and go to: http://127.0.0.1:5000
+
+
+#📷 Web Form Interface
+#📷 Output Price Prediction
+#🚀 Future Work
 Implement other regression models: Random Forest, XGBoost
 
 Deploy the app using Streamlit, Heroku, or AWS
 
-Integrate Google Maps API for location-based visualizations
-
-Add dropdown suggestions for standardized locations
 

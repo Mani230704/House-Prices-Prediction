@@ -36,6 +36,7 @@ To develop a machine learning model that predicts house prices in Bangalore base
 
 ## 📂 Project Structure
 
+```
 bangalore-house-price-prediction/
 │
 ├── data/ # Raw and cleaned dataset files
@@ -48,7 +49,7 @@ bangalore-house-price-prediction/
 │ └── app.py # Flask app script
 ├── requirements.txt # List of Python dependencies
 └── README.md # Project documentation
-
+```
 
 ---
 
@@ -95,14 +96,11 @@ An interactive web interface built with Flask that takes user input such as loca
    git clone https://github.com/your-username/bangalore-house-price-prediction.git
    cd bangalore-house-price-prediction
    
-2.Install dependencies:
+2.Install dependencies and Run the Application :
 
    ```bash
    pip install -r requirements.txt
    Start the Flask application:streamlit run 
-
-3.Run the Application
-   ```bash
    cd app
    python app.py
    Open your browser and go to: http://127.0.0.1:5000

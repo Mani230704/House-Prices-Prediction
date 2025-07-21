@@ -94,25 +94,18 @@ An interactive web interface built with Flask that takes user input such as loca
    ```bash
    git clone https://github.com/your-username/bangalore-house-price-prediction.git
    cd bangalore-house-price-prediction
-Install dependencies:
+2.Install dependencies:
 
 ```bash
 
    pip install -r requirements.txt
-   Start the Flask application:
+   Start the Flask application:streamlit run 
 
+3.Run the Application
 ```bash
 
    cd app
    python app.py
    Open your browser and go to: http://127.0.0.1:5000
-
-
-#📷 Web Form Interface
-#📷 Output Price Prediction
-#🚀 Future Work
-Implement other regression models: Random Forest, XGBoost
-
-Deploy the app using Streamlit, Heroku, or AWS
 
 
